@@ -1,156 +1,128 @@
-<!DOCTYPE html><html lang="en"><head>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="css/banner.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KEY TWO TV</title>
-    <link rel="stylesheet" href="css/styles.css">
-    
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    <title>Kipenga App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Link to an external CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="app-bar">
-        <div class="logo"><!-- Populated by JS --></div>
-        <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
-    </div>
-    <div class="header">
-        <div class="app-info">
-            <img src="images/logo.png" alt="App Logo" class="app-logo">
-            <div class="app-details">
-                <h1>KEY TWO TV</h1>
-                <p class="subtitle">Key two tv for feature</p>
-                <p class="contains">No Ads</p>
+    <div class="container animate__animated animate__fadeIn">
+        <!-- App Header -->
+        <div class="app-header">
+            <img src="https://i.postimg.cc/XqZWthzD/IMG-0344.jpg" class="app-icon" alt="App Icon">
+            <div class="app-info">
+                <h1 class="app-title">Kipenga TV</h1>
+                <div class="app-developer">Kipenga Tech</div>
+                <div class="app-rating">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>1.2M reviews</span>
+                    <span>10M+ downloads</span>
+                    <span>Rated for 3+</span>
+                </div>
+                <a href="Kipenga_TV Official.apk" class="install-button animate__animated animate__pulse animate__infinite">Download Now</a>
             </div>
-            <button class="menu-button" onclick="showCompatibilityMessage()">⋮</button>
         </div>
-    </div>
-    <div class="stats-bar">
-        <div class="stat stat-reviews">
-            <span class="rating">4.8★</span>
-            <span class="label"><!-- Populated by JS --></span>
-        </div>
-        <div class="divider">|</div>
-        <div class="stat">
-            <span class="size">20MB</span>
-        </div>
-        <div class="divider">|</div>
-        <div class="stat stat-age">
-            <span class="text"><!-- Populated by JS --></span>
-            <span class="value">E</span>
-        </div>
-        <div class="divider">|</div>
-        <div class="stat stat-downloads">
-            <span class="downloads">10M+</span>
-            <span class="label"><!-- Populated by JS --></span>
-        </div>
-    </div>
-                
-    <button class="install-button" onclick="window.location.href='keytwotv.apk'">DOWNLOAD</button>
-   <!-- <button class="install-button alternate" onclick="window.location.href='https://www.filemail.com/d/tblexjzglodvxuh'">DOWNLOAD (OPTION 2)</button> -->
-    <style>
-        .install-button.alternate {
-            background-color: #4CAF50;
-            margin-top: 10px;
-        }
-        .install-button.alternate:hover {
-            background-color: #45a049;
-        }
-    </style>
-    <br>
-    <!--start zuba campain banner-->
-       
-    <!--    <div class="ad-banner">-->
-    <!--        <span class="ad-label">Ad</span>-->
-    <!--        <div class="banner-content">-->
-    <!--            <h2 class="banner-title">DREAMBOX SPORTS</h2>-->
-    <!--            <p class="banner-subtitle">Mpira na Livescore Papo hapo</p>-->
-    <!--            <button class="banner-button">DOWNLOAD APP</button>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--</div>-->
-    <!--<script src="script.js"></script>-->
-    <!--<script src="banner.js"></script>-->
-    
-    <!--ends here-->
-    <div class="screenshots-container">
-        <h2>Screenshots</h2>
+
+        <!-- Screenshots -->
         <div class="screenshots">
-            <div class="screenshot" onclick="previewImage(this)"><img src="images/1.jpg" alt="App Screenshot 1"></div><div class="screenshot" onclick="previewImage(this)"><img src="images/2.jpg" alt="App Screenshot 2"></div><div class="screenshot" onclick="previewImage(this)"><img src="images/screenshot5.png" alt="App Screenshot 5"></div>        </div>
-    </div>
-    <div class="app-description">
-        <div class="description-header" onclick="showFullDescription(event)">
+            <h2>Screenshots</h2>
+            <div class="screenshot-container">
+                <img src="https://i.postimg.cc/qqGcVb6y/Screenshot-20250609-173132.png" class="screenshot animate__animated" alt="Screenshot">
+                <img src="https://i.postimg.cc/qqGcVb6y/Screenshot-20250609-173132.png" class="screenshot animate__animated" alt="Screenshot">
+                <img src="https://i.postimg.cc/qqGcVb6y/Screenshot-20250609-173132.png" class="screenshot animate__animated" alt="Screenshot">
+            </div>
+        </div>
+
+        <!-- Description -->
+        <div class="description">
             <h2>About this app</h2>
-            <svg class="forward-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
-                <path fill="#9aa0a6" d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"></path>
-            </svg>
+            <p class="description-text">
+                Kipenga TV is an app to watch all sports, news and entertainment channels through your mobile phone. Enjoy our app and share it with your relatives, friends and family.
+                <br><br>
+                <strong>Features:</strong>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>1000+ Live TV channels</li>
+                    <li>Sports coverage from around the world</li>
+                    <li>News channels in multiple languages</li>
+                    <li>Entertainment and movie channels</li>
+                    <li>User-friendly interface</li>
+                    <li>Regular updates with new channels</li>
+                </ul>
+                <span class="read-more">Read more ▼</span>
+            </p>
         </div>
-        <div class="description-preview">
-            Download Official KEY TWO TV App, your all-in-one streaming platform that brings the world's most exciting leagues and channels right to your fingertips! <br>
-Designed for Android devices and Smart TV...        </div>
+
+        <!-- Additional Info -->
+        <div class="additional-info">
+            <div class="info-box">
+                <div class="info-title">Updated</div>
+                <div>February 16, 2025</div>
+            </div>
+            <div class="info-box">
+                <div class="info-title">Size</div>
+                <div>12.30 MB</div>
+            </div>
+            <div class="info-box">
+                <div class="info-title">Current Version</div>
+                <div>3.0</div>
+            </div>
+            <div class="info-box">
+                <div class="info-title">Downloads</div>
+                <div>10,000,000+</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Enhanced "Read More" functionality with shake effect
+        const readMoreBtn = document.querySelector('.read-more');
+        const description = document.querySelector('.description-text');
         
-                <div class="app-tags">
-                            <span class="tag">Streaming</span>
-                            <span class="tag">TV</span>
-                            <span class="tag">Live</span>
-                            <span class="tag">Movies</span>
-                    </div>
-            </div>
-    <div id="fullDescriptionModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>About this app</h2>
-                <button class="close-modal" onclick="closeFullDescription()">�</button>
-            </div>
-            <div class="modal-body">
-                Download Official KEY TWO TV App, your all-in-one streaming platform that brings the world's most exciting leagues and channels right to your fingertips! <br>
-Designed for Android devices and Smart TVs, <br>
-<br>
-KEY TWO TV delivers a seamless experience for fans of sports, movies, kids' programming, and more, offering premium content that suits every viewer.<br>
-Unlimited Sports Streaming: From UEFA to La Liga, All Leagues Are HereIf you're a sports enthusiast, KEY TWO TV has you covered with unmatched access to global sports leagues, <br>
-including the UEFA Champions League, <br>
-NBC Premier <br>
-League, <br>
-La Liga, <br>
-Serie A, and more. <br>
-<br>
-With live streaming, replays, and highlights, you'll never miss a moment of your favorite matches, no matter where they happen.<br>
- From national leagues to the biggest international tournaments, KEY TWO TV puts every kick, goal, and victory at your fingertip            </div>
-        </div>
-    </div>
-    <div id="imagePreview" class="preview-overlay" onclick="closePreview()">
-        <img src="" alt="Preview" id="previewImage">
-    </div>
-    <!-- New Footer -->
-    <footer class="site-footer">
-        <div class="footer-links">
-   <!--         <a href="privacy.html" rel="nofollow">Privacy Policy</a>
-            <a href="cookie.html" rel="nofollow">Cookie Policy</a>
-            <a href="sitemap.html" rel="nofollow">Sitemap</a>-->
-        </div>
-        <div class="copyright">
-            <p rel="nofollow"><!-- Populated by JS --></p>
-        </div>
-    </footer>
-    <!-- Overlay -->
-    <div class="overlay" onclick="toggleSidebar()"></div>
-    <!-- Sidebar -->
-    <div class="sidebar">
-        <div class="sidebar-header">
-            <h2>Menu</h2>
-            <button class="sidebar-close" onclick="toggleSidebar()">×</button>
-        </div>
-        <!-- Sidebar content will be populated by createSidebar() -->
-    </div>
-    <script src="js/script.js"></script>
-    <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js";
-        const firebaseConfig = {"apiKey":"AIzaSyC_gOXpaxAF81XgHlxEPxaoXvGNBkwUXdk","authDomain":"modoboweb.firebaseapp.com","projectId":"modoboweb","storageBucket":"modoboweb.firebasestorage.app","messagingSenderId":"709060250160","appId":"1:709060250160:web:c26f9f69b608c3ce75fbf5","measurementId":"G-YZLT80NXKF"};
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
+        readMoreBtn.addEventListener('click', function() {
+            description.classList.toggle('expanded');
+            this.textContent = description.classList.contains('expanded') ? 'Read less ▲' : 'Read more ▼';
+            
+            // Add shake animation to container
+            const container = document.querySelector('.container');
+            container.classList.add('shake');
+            setTimeout(() => {
+                container.classList.remove('shake');
+            }, 500);
+        });
+        
+        // Add hover animations to screenshots
+        const screenshots = document.querySelectorAll('.screenshot');
+        screenshots.forEach((screenshot, index) => {
+            screenshot.addEventListener('mouseenter', () => {
+                screenshot.classList.add('animate__animated', 'animate__pulse');
+            });
+            
+            screenshot.addEventListener('mouseleave', () => {
+                setTimeout(() => {
+                    screenshot.classList.remove('animate__animated', 'animate__pulse');
+                }, 1000);
+            });
+            
+            // Staggered animation on load
+            setTimeout(() => {
+                screenshot.classList.add('animate__fadeInRight');
+            }, 200 * index);
+        });
+        
+        // Add animation to download button on hover
+        const downloadBtn = document.querySelector('.install-button');
+        downloadBtn.addEventListener('mouseenter', () => {
+            downloadBtn.classList.add('animate__rubberBand');
+        });
+        
+        downloadBtn.addEventListener('mouseleave', () => {
+            setTimeout(() => {
+                downloadBtn.classList.remove('animate__rubberBand');
+            }, 1000);
+        });
     </script>
-</body></html>
+</body>
+</html>
